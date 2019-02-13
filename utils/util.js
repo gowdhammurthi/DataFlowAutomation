@@ -1,6 +1,5 @@
 let lib = require("./lib.js");
 const time_out = 1000;
-var lost,reason;
 module.exports = {
     "launchHome": function(browser,username,password) {
          browser
@@ -30,21 +29,6 @@ module.exports = {
         }finally{}
         return browser;
     },
-
-    "createRli" : function(browser,type="normal"){
-       if(type=="normal"){
-        browser
-           .assert.containsText(lib.rli.header,"Revenue Line Items")
-           .click(lib.rli.dropdown)
-           .click(lib.rli.create)
-           .assert.urlContains('RevenueLineItems/create');
-       }
-       else {
-        this.click(browser,lib.Quick_create);
-        this.click(browser,lib.rli.q_create);
-       }
-        return browser;
-    },
     "viewRli" : function(browser,val){
         browser
         .click(lib.rli.dropdown)
@@ -63,13 +47,6 @@ module.exports = {
         .click(lib.firstchild)
      return browser;
 
-    },
-    "viewOppty" : function(browser,val){
-        this.click(browser,lib.oppty.straight)
-          .setValue(lib.oppty.search,val)
-          .waitForElementVisible(lib.oppty.firstchild,time_out*10)
-        .assert.containsText(lib.oppty.firstchild,val);
-        return browser;
     },
     "createOppty" : function(browser,type="normal"){
       if(type=="normal"){
@@ -116,12 +93,6 @@ module.exports = {
         this.handleAlerts(browser);
      return browser;
     },
-    "setValue" : function(browser,item,value){
-        browser
-           .waitForElementVisible(item,time_out)
-           .setValue(item,value);
-        return browser;
-    },
     "editRecord" : function(browser,type="null"){
         browser
             .click(lib.rli.firstchild);
@@ -149,9 +120,7 @@ module.exports = {
                  {}
                 }
            }
-
-            
-        return browser;
+       return browser;
     },
     "assert_categories_select" : function(browser,drop,i,n,list,num){
         browser
@@ -190,64 +159,6 @@ module.exports = {
                  .click("#select2-results-"+x+" > li:nth-child("+num+")");
             })
         return browser;
-    },
-    "create_rev" : function(browser,Item_rev,Item_oppor=undefined){
-      browser
-        .setValue(lib.rli.name,Item_rev.name);
-    if(Item_rev.oppurtunity != ""){
-      this.click(browser,lib.rli.oppurtunity);
-      this.select_drop(browser,lib.rli.oppurtunity,1,Item_rev.oppurtunity)
-    }
-    else{
-        this.click(browser,lib.rli.oppurtunity);
-        this.click(browser,lib.rli.create_oppty);
-        this.click(browser,lib.rli.create_oppty_);
-        this.create_Oppty(browser,Item_oppor,"rli");
-    }
-    browser
-        .setValue(lib.rli.date,Item_rev.date)
-        .setValue(lib.rli.dollars,Item_rev.dollars);
-      this.click(browser,lib.rli.product);
-      this.select_drop(browser,lib.rli.product,1,Item_rev.product);
-      this.click(browser,lib.rli.type);
-      this.select_drop(browser,lib.rli.type,1,Item_rev.type)
-         .setValue(lib.rli.comp_input,Item_rev.competitor)
-      this.click(browser,lib.rli.competitor)
-      this.click(browser,lib.rli.create_save)
-         .waitForElementVisible(lib.login.alertmessage,time_out*2)
-         .getText(lib.login.alertmessage,(result)=>{
-                    console.log(result.value);
-          });
-      this.handleAlerts(browser);
-      return browser;
-                
-    },
-    "check" : function(browser,button,lost,reason){
-        browser
-            .click(button)
-            .click(lib.rli.dropdown)
-            .click(lib.rli.view)
-            .setValue(lib.rli.search,"Regression12")
-            .waitForElementVisible(lib.rli.firstchild,time_out*4)
-            .click(lib.rli.firstchild)
-            .assert.containsText(lib.rli.lostvalue,lost)
-            .assert.containsText(lib.rli.reasonvalue,reason);
-       return browser;
-    },
-   "logout": function(browser) {
-        browser.url(browser.launch_url+'#logout/?clear=1')
-        return browser;
-    },
-    "screenshotPath": function (browser) {
-        const path = require('path')
-        const dateTime = new Date()
-          .toISOString()
-          .split('.')[0]
-          .replace(/:/g, '-');
-        const fileName = `${browser.currentTest.module}-${dateTime}.png`;
-        return path.resolve(
-          path.join(browser.globals.test_settings.screenshots.path || '', fileName)
-        );
     },
    "VerifySalesStage" : function(browser,num ,type = "normal"){
         browser 
@@ -312,8 +223,5 @@ module.exports = {
             default : {break;}
         }
      return browser;
-   },
-   "getLostReason" : function(){
-      return [lost,reason];
    }
 }

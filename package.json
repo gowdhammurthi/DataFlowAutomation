@@ -9,7 +9,6 @@
   "author": "gowdham",
   "license": "ISC",
   "dependencies": {
-    "csvtojson": "^2.0.8",
     "nightwatch": "^1.0.19"
   }
 }
