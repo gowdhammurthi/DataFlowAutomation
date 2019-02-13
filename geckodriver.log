@@ -1,0 +1,266 @@
+1548398206160	webdriver::httpapi	DEBUG	Creating routes
+1548398206168	geckodriver	DEBUG	Listening on 127.0.0.1:4444
+1548398206180	webdriver::server	DEBUG	-> GET /status 
+1548398206180	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1548398206321	webdriver::server	DEBUG	-> POST /session {"capabilities":{"browserName":"firefox","acceptSslCerts":true,"acceptInsecureCerts":true,"name":"Atlaslogin"},"desiredCapabilities":{"browserName":"firefox","acceptSslCerts":true,"platform":"ANY","acceptInsecureCerts":true,"name":"Atlaslogin"}}
+1548398206329	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/31/znr035qd44v665p_26qjhw7m0000gn/T/rust_mozprofile.rBnbm2fxXrP3"
+1548398206330	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:57830
+1548398207033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548398207033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1548398207175	Marionette	DEBUG	Received observer notification profile-after-change
+1548398207290	Marionette	DEBUG	Received observer notification command-line-startup
+1548398207290	Marionette	DEBUG	Received observer notification nsPref:changed
+1548398207290	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1548398207491	Marionette	DEBUG	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1548398208577	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1548398208577	Marionette	DEBUG	Waiting for delayed startup...
+1548398208720	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1548398208722	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1548398208722	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1548398208723	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1548398208723	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1548398208723	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1548398208725	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1548398208725	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1548398208725	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1548398208725	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1548398208726	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1548398208727	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1548398208728	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1548398208728	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1548398208728	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1548398208728	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1548398208728	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1548398208729	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1548398208729	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1548398208729	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1548398208729	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1548398208729	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1548398208730	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1548398208730	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1548398208730	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1548398208730	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1548398208730	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1548398208777	Marionette	INFO	Listening on port 57830
+1548398208777	Marionette	DEBUG	Remote service is active
+1548398208795	geckodriver::marionette	DEBUG	Connection established on 127.0.0.1:57830. Waiting for Marionette handshake
+1548398208800	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:57857
+1548398208808	geckodriver::marionette	DEBUG	Connected to Marionette
+1548398208858	Marionette	DEBUG	[4294967297] Frame script loaded
+1548398208860	Marionette	DEBUG	[4294967297] Frame script registered
+1548398208877	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"247d2267-221b-5c4f-b488-2555149f4533","capabilities":{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"64.0.2","moz:accessibilityChecks":false,"moz:geckodriverVersion":"0.23.0","moz:headless":false,"moz:processID":9474,"moz:profile":"/var/folders/31/znr035qd44v665p_26qjhw7m0000gn/T/rust_mozprofile.rBnbm2fxXrP3","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"mac","platformVersion":"17.7.0","rotatable":false,"setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1548398208891	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/url {"url":"https://ibmatlas-dev01.sugarondemand.com/"}
+1548398208918	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1548398210291	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1548398213487	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://ibmatlas-dev01.sugarondemand.com/
+1548398213522	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://ibmatlas-dev01.sugarondemand.com/
+1548398213525	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1548398213529	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"css selector","value":"a[name=external_login_button]"}
+1548398213535	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398214040	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"css selector","value":"a[name=external_login_button]"}
+1548398214047	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398214553	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"css selector","value":"a[name=external_login_button]"}
+1548398214560	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398215065	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"css selector","value":"a[name=external_login_button]"}
+1548398215074	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398215582	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"css selector","value":"a[name=external_login_button]"}
+1548398215589	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398216096	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"css selector","value":"a[name=external_login_button]"}
+1548398216129	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"c0eded07-75f1-4249-8a5e-0b5657db6747"}]}
+1548398216132	webdriver::server	DEBUG	-> GET /session/247d2267-221b-5c4f-b488-2555149f4533/element/c0eded07-75f1-4249-8a5e-0b5657db6747/displayed 
+1548398216149	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1548398216155	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element {"using":"css selector","value":"a[name=external_login_button]"}
+1548398216162	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"c0eded07-75f1-4249-8a5e-0b5657db6747"}}
+1548398216165	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/c0eded07-75f1-4249-8a5e-0b5657db6747/click {"id":"c0eded07-75f1-4249-8a5e-0b5657db6747"}
+1548398216334	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://ibmatlas-dev01.sugarondemand.com/
+1548398218051	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://ibmatlas-dev01.sugarondemand.com/
+1548398218052	Marionette	DEBUG	[4294967297] Received DOM event unload for https://ibmatlas-dev01.sugarondemand.com/
+1548398218953	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://w3id-test.sso.ibm.com/auth/sps/auth?FedName=samlidp2&FedId=uuid91beab1b-0162-146a-988d-fbe68d8eaffd
+1548398218965	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1548398219972	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://w3id-test.sso.ibm.com/auth/sps/auth?FedName=samlidp2&FedId=uuid91beab1b-0162-146a-988d-fbe68d8eaffd
+1548398219980	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1548398219987	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"css selector","value":"input[name=username]"}
+1548398219994	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"3bf7aa35-908f-7e41-a601-508fcdaf5244"}]}
+1548398219996	webdriver::server	DEBUG	-> GET /session/247d2267-221b-5c4f-b488-2555149f4533/element/3bf7aa35-908f-7e41-a601-508fcdaf5244/displayed 
+1548398220014	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1548398220018	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element {"using":"css selector","value":"input[name=username]"}
+1548398220024	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"3bf7aa35-908f-7e41-a601-508fcdaf5244"}}
+1548398220026	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/3bf7aa35-908f-7e41-a601-508fcdaf5244/value {"text":"sugarf6@tst.ibm.com"}
+1548398220067	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1548398220069	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"css selector","value":"input[name=password]"}
+1548398220077	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"1a60a44a-44a6-7847-af51-d60ffa3fa435"}]}
+1548398220079	webdriver::server	DEBUG	-> GET /session/247d2267-221b-5c4f-b488-2555149f4533/element/1a60a44a-44a6-7847-af51-d60ffa3fa435/displayed 
+1548398220088	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1548398220090	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element {"using":"css selector","value":"input[name=password]"}
+1548398220094	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"1a60a44a-44a6-7847-af51-d60ffa3fa435"}}
+1548398220096	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/1a60a44a-44a6-7847-af51-d60ffa3fa435/value {"text":"Welcome2ibm"}
+1548398220118	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1548398222128	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element {"using":"xpath","value":"//*[@id=\"btn_signin\"]"}
+1548398222152	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"c073de18-edbb-434f-97dc-1a90a5446fd2"}}
+1548398222154	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/c073de18-edbb-434f-97dc-1a90a5446fd2/click {"id":"c073de18-edbb-434f-97dc-1a90a5446fd2"}
+1548398222173	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://w3id-test.sso.ibm.com/auth/sps/auth?FedName=samlidp2&FedId=uuid91beab1b-0162-146a-988d-fbe68d8eaffd
+1548398225119	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://w3id-test.sso.ibm.com/auth/sps/auth?FedName=samlidp2&FedId=uuid91beab1b-0162-146a-988d-fbe68d8eaffd
+1548398225120	Marionette	DEBUG	[4294967297] Received DOM event unload for https://w3id-test.sso.ibm.com/auth/sps/auth?FedName=samlidp2&FedId=uuid91beab1b-0162-146a-988d-fbe68d8eaffd
+1548398225298	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://w3id-test.sso.ibm.com/auth/sps/auth?FedName=samlidp2&FedId=uuid91beab1b-0162-146a-988d-fbe68d8eaffd
+1548398225656	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://w3id-test.sso.ibm.com/auth/sps/auth?FedName=samlidp2&FedId=uuid91beab1b-0162-146a-988d-fbe68d8eaffd
+1548398225660	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1548398225665	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398225670	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398226177	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398226185	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398226694	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398226704	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398227211	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398227221	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398227727	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398227735	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398228244	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398228252	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398228761	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398228769	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398229277	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398229288	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398229794	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398229801	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1548398230310	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398230316	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398230820	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398230830	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398231337	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398231344	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398231850	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398231865	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398232371	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398232378	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398232883	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398232890	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398233394	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398233403	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398233912	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398233919	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398234426	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398234695	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398235202	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398235210	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398235717	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398235724	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398236228	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398236248	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398236755	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398236763	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398237267	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398237276	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398237784	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398237791	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398238295	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398238299	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398238805	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398238808	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398239311	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398239317	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398239823	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398239830	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398240337	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398240341	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398240849	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398240857	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398241364	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398241372	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398241876	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398242112	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"3d54d306-df4f-ef4c-bc49-8abe606bfe00"}]}
+1548398242116	webdriver::server	DEBUG	-> GET /session/247d2267-221b-5c4f-b488-2555149f4533/element/3d54d306-df4f-ef4c-bc49-8abe606bfe00/displayed 
+1548398242134	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1548398242141	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]"}
+1548398242145	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"0f196a28-5989-c642-81f9-afb7928d0fff"}}
+1548398242147	webdriver::server	DEBUG	-> GET /session/247d2267-221b-5c4f-b488-2555149f4533/element/0f196a28-5989-c642-81f9-afb7928d0fff/text 
+1548398242580	webdriver::server	DEBUG	<- 200 OK {"value":"Accounts\nContacts\nOpportunities\nRevenue Line Items\nLeads\nReports\nTasks\nCalls\nNotes"}
+1548398242589	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element {"using":"xpath","value":"/html/body/div[1]/div/div[2]/div/div/div/div[1]/ul/li[4]/span/a"}
+1548398242649	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"3d54d306-df4f-ef4c-bc49-8abe606bfe00"}}
+1548398242655	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/3d54d306-df4f-ef4c-bc49-8abe606bfe00/click {"id":"3d54d306-df4f-ef4c-bc49-8abe606bfe00"}
+1548398242672	Marionette	DEBUG	[4294967297] Received DOM event popstate for https://ibmatlas-dev01.sugarondemand.com/index.php#Opportunities
+1548398242688	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1548398242690	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[3]/div/div/div[1]/div[1]/div/h1/div/span[1]/a"}
+1548398243129	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"129baf27-5e99-b644-a424-7cb4d528af12"}]}
+1548398243135	webdriver::server	DEBUG	-> GET /session/247d2267-221b-5c4f-b488-2555149f4533/element/129baf27-5e99-b644-a424-7cb4d528af12/displayed 
+1548398243157	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1548398243161	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element {"using":"xpath","value":"/html/body/div[1]/div/div[3]/div/div/div[1]/div[1]/div/h1/div/span[1]/a"}
+1548398243166	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"129baf27-5e99-b644-a424-7cb4d528af12"}}
+1548398243171	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/129baf27-5e99-b644-a424-7cb4d528af12/click {"id":"129baf27-5e99-b644-a424-7cb4d528af12"}
+1548398243207	Marionette	DEBUG	[4294967297] Received DOM event popstate for https://ibmatlas-dev01.sugarondemand.com/index.php#Opportunities/create
+1548398243218	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1548398243226	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[5]/div/div/div[1]/div[1]/div/div[3]/div/div/div[1]/div[1]/div[1]/span/span/input"}
+1548398244675	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398245179	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[5]/div/div/div[1]/div[1]/div/div[3]/div/div/div[1]/div[1]/div[1]/span/span/input"}
+1548398245192	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"c9eea0a0-a142-2c4d-9d50-0403ae45a97b"}]}
+1548398245195	webdriver::server	DEBUG	-> GET /session/247d2267-221b-5c4f-b488-2555149f4533/element/c9eea0a0-a142-2c4d-9d50-0403ae45a97b/displayed 
+1548398245209	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1548398245212	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element {"using":"xpath","value":"/html/body/div[1]/div/div[5]/div/div/div[1]/div[1]/div/div[3]/div/div/div[1]/div[1]/div[1]/span/span/input"}
+1548398245233	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"c9eea0a0-a142-2c4d-9d50-0403ae45a97b"}}
+1548398245239	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/c9eea0a0-a142-2c4d-9d50-0403ae45a97b/value {"text":"Testsele"}
+1548398245287	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1548398245291	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[5]/div/div/div[1]/div[1]/div/div[3]/div/div/div[1]/div[2]/div[1]/span/span/div/a/span[2]/b"}
+1548398245308	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1548398245812	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/elements {"using":"xpath","value":"/html/body/div[1]/div/div[5]/div/div/div[1]/div[1]/div/div[3]/div/div/div[1]/div[2]/div[1]/span/span/div/a/span[2]/b"}
+1548398246911	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"444c736d-923d-3540-b7da-3d9c8e792259"}]}
+1548398246914	webdriver::server	DEBUG	-> GET /session/247d2267-221b-5c4f-b488-2555149f4533/element/444c736d-923d-3540-b7da-3d9c8e792259/displayed 
+1548398247183	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1548398247186	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element {"using":"xpath","value":"/html/body/div[1]/div/div[5]/div/div/div[1]/div[1]/div/div[3]/div/div/div[1]/div[2]/div[1]/span/span/div/a/span[2]/b"}
+1548398247222	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"444c736d-923d-3540-b7da-3d9c8e792259"}}
+1548398247230	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/444c736d-923d-3540-b7da-3d9c8e792259/click {"id":"444c736d-923d-3540-b7da-3d9c8e792259"}
+Can't find symbol 'GetGraphicsResetStatus'.
+1548398248006	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1548398248008	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1548398253015	webdriver::server	DEBUG	-> POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/active 
+1548398253016	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"unknown command","message":"POST /session/247d2267-221b-5c4f-b488-2555149f4533/element/active did not match a known command","stacktrace":""}}
+1548398253029	webdriver::server	DEBUG	-> DELETE /session/247d2267-221b-5c4f-b488-2555149f4533 
+1548398253032	Marionette	INFO	Stopped listening on port 57830
+1548398253145	webdriver::server	DEBUG	Deleting session
+1548398253169	Marionette	DEBUG	Closed connection 0
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1548398253308	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1548398253308	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1548398253309	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1548398253309	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1548398253309	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1548398253309	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1548398253310	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1548398253310	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1548398253310	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1548398253310	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1548398253311	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1548398253311	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1548398253311	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1548398253311	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1548398253311	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1548398253311	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1548398253311	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1548398253312	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1548398253312	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1548398253312	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1548398253312	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1548398253312	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1548398253312	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1548398253312	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1548398253312	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1548398253312	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1548398253313	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1548398253313	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1548398253313	Marionette	DEBUG	Remote service is inactive
+1548398253666	geckodriver::marionette	DEBUG	Browser process stopped: exit code: 0
+1548398253709	webdriver::server	DEBUG	<- 200 OK {"value":null}

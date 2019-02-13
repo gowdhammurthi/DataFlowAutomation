@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="4TestCase"
+    errors="0" failures="0" hostname="" id="" package="4TestCase" skipped="7"
+    tests="0" time="0" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="View the created record and click on edit button_3" classname="4TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Select Lost sales stage and verify if Lost category is displayed_4" classname="4TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click on the Lost category and verify_4" classname="4TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="verify if  Reason Lost field is displayed_4" classname="4TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="click save 1" classname="4TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="check_4" classname="4TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="logout" classname="4TestCase">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,42 @@
+{
+  "src_folders" : ["./tests"],
+ 
+
+  "webdriver" : {
+    "start_process": true
+  },
+
+  "test_settings" : {
+    "default" : {
+      "webdriver": {
+        "server_path": "./chromedriver",
+        "port": 9515,
+        "cli_args": [
+          "--log", "debug"
+        ]
+      },
+      "filter": ["./tests"],
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "acceptInsecureCerts" : true
+      
+      }
+    },
+    "selenium_server" : {
+      "selenium" : {
+        "start_process": true,
+        "host": "localhost",
+        "server_path": "./selenium-server-standalone-3.141.59.jar",
+        "cli_args": {
+          "webdriver.gecko.driver": "./chromedriver"
+        }
+      },
+
+      "desiredCapabilities" : {
+        "browserName" : "chrome",
+        "acceptSslCerts": true
+      },
+      "launch_url" : "https://ibmatlas-dev01.sugarondemand.com/"
+    }
+  }
+}

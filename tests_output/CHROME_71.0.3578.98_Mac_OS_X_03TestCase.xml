@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="03TestCase"
+    errors="0" failures="1" hostname="" id="" package="03TestCase" skipped="4"
+    tests="2" time="34.23" timestamp="">
+  
+    <testcase name="View the created record and click on edit button_2" classname="03TestCase" time="31.11" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select Lost sales stage and verify if Lost category is displayed_3" classname="03TestCase" time="3.114" assertions="1">  <failure message="Testing if attribute data-name of &lt;div[id^=panel_bodyview] &gt; div:nth-child(3) &gt; div:nth-child(2)&gt; contains &#34;lost_category_c&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;lost_category_c&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Select Lost sales stage and verify if Lost category is displayed_3 (/Users/gowdham/Documents/Node/nightwatchautomation/tests/03TestCase.js:26:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.Select Lost sales stage and verify if Lost category is displayed_3 (/Users/gowdham/Documents/Node/nightwatchautomation/tests/03TestCase.js:26:22)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Click on the Lost category and verify_3" classname="03TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="verify if  Reason Lost field is displayed_3" classname="03TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="click save" classname="03TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="check 1" classname="03TestCase">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

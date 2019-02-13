@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="atlaslogin"
+    errors="0" failures="0" hostname="" id="" package="atlaslogin" skipped="0"
+    tests="5" time="74.92" timestamp="">
+  
+    <testcase name="login atlas" classname="atlaslogin" time="7.045" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="enter userpassword" classname="atlaslogin" time="8.177" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create Oppurtunity" classname="atlaslogin" time="11.97" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="form" classname="atlaslogin" time="35.70" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="delete" classname="atlaslogin" time="12.04" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

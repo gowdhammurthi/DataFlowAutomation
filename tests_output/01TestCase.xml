@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="01TestCase"
+    errors="0" failures="0" hostname="" id="" package="01TestCase" skipped="6"
+    tests="0" time="0" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="Login to SOC " classname="01TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click on Create RLI" classname="01TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Select Lost sales stage and verify if Lost category is displayed" classname="01TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click on the Lost category and verify" classname="01TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="verify if  Reason Lost field is displayed" classname="01TestCase">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="all mandatory fields and click on save button" classname="01TestCase">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="3TestCase"
+    errors="0" failures="0" hostname="" id="" package="3TestCase" skipped="0"
+    tests="6" time="78.57" timestamp="">
+  
+    <testcase name="View the created record and click on edit button_2" classname="3TestCase" time="44.26" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select Lost sales stage and verify if Lost category is displayed_3" classname="3TestCase" time="4.621" assertions="0">
+    </testcase>
+  
+    <testcase name="Click on the Lost category and verify_3" classname="3TestCase" time="4.560" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="verify if  Reason Lost field is displayed_3" classname="3TestCase" time="4.248" assertions="0">
+    </testcase>
+  
+    <testcase name="click save" classname="3TestCase" time="3.622" assertions="0">
+    </testcase>
+  
+    <testcase name="check_3" classname="3TestCase" time="17.26" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
