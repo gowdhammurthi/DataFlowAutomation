@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="RLI_CHECK"
+    errors="1" failures="0" hostname="" id="" package="RLI_CHECK" skipped="0"
+    tests="3" time="38.69" timestamp="">
+  
+    <testcase name="loginfind" classname="RLI_CHECK" time="32.80" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Pencil edit" classname="RLI_CHECK" time="5.867" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="On pencil Select Lost sales stage and verify if Lost category is displayed" classname="RLI_CHECK" time="0.01400" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

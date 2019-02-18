@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="OPPTY_CREATE"
+    errors="0" failures="0" hostname="" id="" package="OPPTY_CREATE" skipped="2"
+    tests="0" time="0" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="login_create" classname="OPPTY_CREATE">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Create_Oppty" classname="OPPTY_CREATE">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

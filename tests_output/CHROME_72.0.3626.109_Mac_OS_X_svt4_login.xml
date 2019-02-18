@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="svt4_login"
+    errors="1" failures="1" hostname="" id="" package="svt4_login" skipped="0"
+    tests="1" time="63.31" timestamp="">
+  
+    <testcase name="login" classname="svt4_login" time="63.31" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;#oppty-rli-collapse-1 &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; div &gt; span &gt; span &gt; div &gt; a &gt; span:nth-child(1)&gt; to be visible for 1500 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not visible&#34;[0m">    at Object.click (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/util.js:161:16)
+    at Object.createOppty (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/svt_util.js:35:14)
+    at Object.login (/Users/gowdham/Documents/Node/DataFlowAutomation/tests/svt4_login.js:15:14)</failure>
+
+    <failure message="    at Object.click (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/util.js:161:16)">    at Object.createOppty (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/svt_util.js:35:14)
+    at Object.login (/Users/gowdham/Documents/Node/DataFlowAutomation/tests/svt4_login.js:15:14)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
