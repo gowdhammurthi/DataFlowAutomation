@@ -6,6 +6,7 @@ const time_out =1000;
 let fs = require('fs');
 var x,y;
 module.exports = {
+  '@disabled' : true,
  'loginfind' : function(browser){
     util.launchHome(browser,"sugarf6@tst.ibm.com","Welcome2ibm");
  },

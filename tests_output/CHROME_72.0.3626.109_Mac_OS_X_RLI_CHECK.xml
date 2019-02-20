@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
-            tests="3">
+<testsuites errors="0"
+            failures="1"
+            tests="1">
 
   <testsuite name="RLI_CHECK"
-    errors="1" failures="0" hostname="" id="" package="RLI_CHECK" skipped="0"
-    tests="3" time="38.69" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="RLI_CHECK" skipped="2"
+    tests="1" time="3.812" timestamp="">
   
-    <testcase name="loginfind" classname="RLI_CHECK" time="32.80" assertions="5">
+    <testcase name="loginfind" classname="RLI_CHECK" time="3.812" assertions="1">  <failure message="Timed out while waiting for element &lt;a[name=external_login_button]&gt; to be present for 2000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.launchHome (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/util.js:9:20)
+    at Object.loginfind (/Users/gowdham/Documents/Node/DataFlowAutomation/tests/RLI_CHECK.js:10:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
 
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Pencil edit" classname="RLI_CHECK" time="5.867" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="On pencil Select Lost sales stage and verify if Lost category is displayed" classname="RLI_CHECK" time="0.01400" assertions="0">
+    <failure message="    at Object.launchHome (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/util.js:9:20)">    at Object.loginfind (/Users/gowdham/Documents/Node/DataFlowAutomation/tests/RLI_CHECK.js:10:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   
 
   
 
+  
+    
+    <testcase
+      name="Pencil edit" classname="RLI_CHECK">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="On pencil Select Lost sales stage and verify if Lost category is displayed" classname="RLI_CHECK">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

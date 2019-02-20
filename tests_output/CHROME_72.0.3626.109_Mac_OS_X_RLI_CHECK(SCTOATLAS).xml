@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="RLI_CHECK(SCTOATLAS)"
+    errors="1" failures="0" hostname="" id="" package="RLI_CHECK(SCTOATLAS)" skipped="0"
+    tests="3" time="81.82" timestamp="">
+  
+    <testcase name="loginfind" classname="RLI_CHECK(SCTOATLAS)" time="31.72" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Pencil edit" classname="RLI_CHECK(SCTOATLAS)" time="6.962" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="On pencil Select Lost sales stage and verify if Lost category is displayed" classname="RLI_CHECK(SCTOATLAS)" time="43.13" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

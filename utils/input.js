@@ -22,6 +22,7 @@ module.exports = {
         "competitor" : 'Abea'
 
        },
+       "typecount" : [6,4,3,6,5,2,1],
        "products":["BYS99" ,"BZU99",
        "BZZB0" ,
        "BYDQ0" ,

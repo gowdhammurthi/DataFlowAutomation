@@ -192,7 +192,7 @@ module.exports = {
         if(keys!='false'){ 
         browser
             .keys(keys)
-            .pause(time_out);
+            .pause(time_out*5);
         }
         browser
             .getAttribute(item,"id",function(result){

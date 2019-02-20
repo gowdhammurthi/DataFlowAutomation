@@ -1,6 +1,7 @@
 let util = require("../utils/util.js");
 let input = require("../utils/input");
 module.exports = {
+    '@disabled' : true,
  'login_create' : function(browser,type="normal"){
     util.launchHome(browser,"sugarf6@tst.ibm.com","Welcome2ibm");
     util.createOppty(browser,type);

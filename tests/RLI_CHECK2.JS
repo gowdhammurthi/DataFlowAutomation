@@ -2,6 +2,8 @@ let util = require("../utils/util.js");
 let lib = require("../utils/lib.js");
 const time_out =1000;
 module.exports = {
+
+  '@disabled' : true,
  'loginfind' : function(browser){
         util.launchHome(browser,"sugarf6@tst.ibm.com","Welcome2ibm");
         util.createOppty(browser,type);
