@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="RLI_CHECK(SCTOATLAS)"
+    errors="0" failures="1" hostname="" id="" package="RLI_CHECK(SCTOATLAS)" skipped="2"
+    tests="1" time="5.922" timestamp="">
+  
+    <testcase name="loginfind" classname="RLI_CHECK(SCTOATLAS)" time="5.922" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;input[name=username]&gt; to be present for 1000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.launchHome (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/util.js:11:20)
+    at Object.loginfind (/Users/gowdham/Documents/Node/DataFlowAutomation/tests/RLI_CHECK(SCTOATLAS).js:10:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.launchHome (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/util.js:11:20)">    at Object.loginfind (/Users/gowdham/Documents/Node/DataFlowAutomation/tests/RLI_CHECK(SCTOATLAS).js:10:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Pencil edit" classname="RLI_CHECK(SCTOATLAS)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="On pencil Select Lost sales stage and verify if Lost category is displayed" classname="RLI_CHECK(SCTOATLAS)">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

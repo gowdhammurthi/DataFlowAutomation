@@ -29,7 +29,12 @@ module.exports = {
     "product" : "#content > div > div > div.main-pane.span8 > div > div:nth-child(1) > div:nth-child(2) > div.record.tab-layout > div:nth-child(1) > div > div:nth-child(4) > div > span.normal.index > span > div > a > span:nth-child(1)",
     "type" : "#content > div > div > div.main-pane.span8 > div > div:nth-child(1) > div:nth-child(2) > div.record.tab-layout > div:nth-child(2) > div > div:nth-child(7) > div > span.normal.index > span > div > a > span:nth-child(1)",
     "save" : "#content > div > div > div.main-pane.span8 > div > div:nth-child(1) > div:nth-child(2) > div.headerpane > h1 > div > span:nth-child(2) > a",
-
-
+    "ContractExtension" : { "showmore" : "#content > div > div > div.main-pane.span8 > div > div:nth-child(1) > div.row-fluid.clearboth.show-hide-toggle > div > button.btn-link.btn-invisible.more.edit-showmore",
+                            "status" : "#content > div > div > div.main-pane.span8 > div > div:nth-child(1) > div:nth-child(2) > div.record.tab-layout > div:nth-child(8) > div > div:nth-child(1) > div > span.normal.index > span > div > a > span:nth-child(1)",
+                            "expTcv" : "input[name='expiring_contract_tcv']",
+                            "date" : "#content > div > div > div.main-pane.span8 > div > div:nth-child(1) > div:nth-child(2) > div.record.tab-layout > div:nth-child(8) > div > div:nth-child(5) > div > span.normal.index > span > div > input",
+                            "reason" : "#content > div > div > div.main-pane.span8 > div > div:nth-child(1) > div:nth-child(2) > div.record.tab-layout > div:nth-child(9) > div > div:nth-child(5) > div > span.normal.index > span > div > a > span:nth-child(1)",
+                            "reasonForloss" : "#content > div > div > div.main-pane.span8 > div > div:nth-child(1) > div:nth-child(2) > div.record.tab-layout > div:nth-child(8) > div > div:nth-child(3) > div > span.normal.index > span > div > a >span:nth-child(1)",
+    }
 }
 }

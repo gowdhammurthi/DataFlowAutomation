@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
+<testsuites errors="0"
+            failures="1"
             tests="3">
 
   <testsuite name="RLI_CHECK(SCTOATLAS)"
-    errors="1" failures="0" hostname="" id="" package="RLI_CHECK(SCTOATLAS)" skipped="0"
-    tests="3" time="81.82" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="RLI_CHECK(SCTOATLAS)" skipped="0"
+    tests="3" time="83.95" timestamp="">
   
-    <testcase name="loginfind" classname="RLI_CHECK(SCTOATLAS)" time="31.72" assertions="5">
+    <testcase name="loginfind" classname="RLI_CHECK(SCTOATLAS)" time="25.05" assertions="5">
 
     
 
@@ -20,12 +20,12 @@
     
     </testcase>
   
-    <testcase name="Pencil edit" classname="RLI_CHECK(SCTOATLAS)" time="6.962" assertions="1">
+    <testcase name="Pencil edit" classname="RLI_CHECK(SCTOATLAS)" time="6.203" assertions="1">
 
     
     </testcase>
   
-    <testcase name="On pencil Select Lost sales stage and verify if Lost category is displayed" classname="RLI_CHECK(SCTOATLAS)" time="43.13" assertions="9">
+    <testcase name="On pencil Select Lost sales stage and verify if Lost category is displayed" classname="RLI_CHECK(SCTOATLAS)" time="52.70" assertions="13">
 
     
 
@@ -44,6 +44,17 @@
     
 
     
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;#content &gt; div &gt; div &gt; div.main-pane.span8 &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; div.headerpane &gt; h1 &gt; div &gt; span.fieldset.actions.record.btn-group &gt; span &gt; a&gt; to be visible for 1500 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not visible&#34;[0m">    at Object.click (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/util.js:187:16)
+    at Object.On pencil Select Lost sales stage and verify if Lost category is displayed (/Users/gowdham/Documents/Node/DataFlowAutomation/tests/RLI_CHECK(SCTOATLAS).js:32:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.click (/Users/gowdham/Documents/Node/DataFlowAutomation/utils/util.js:187:16)">    at Object.On pencil Select Lost sales stage and verify if Lost category is displayed (/Users/gowdham/Documents/Node/DataFlowAutomation/tests/RLI_CHECK(SCTOATLAS).js:32:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   
 

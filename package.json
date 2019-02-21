@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "nightwatch": "^1.0.19"
+  },
+  "devDependencies": {
+    "geckodriver": "^1.15.1"
   }
 }
